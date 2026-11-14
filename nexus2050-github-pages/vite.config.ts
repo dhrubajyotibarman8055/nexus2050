@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   // Relative asset paths work for GitHub Pages project sites without hardcoding a repo name.
-  base: "./",
+  base: "/nexus2050/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
